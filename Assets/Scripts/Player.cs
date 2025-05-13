@@ -4,31 +4,19 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private Vector2 m_Move;
+    private float speed = 3.0f;
+    private Vector2 move = new Vector2(0,0);
     void Start()
     {
         
     }
     public void OnMove(InputValue value) {
-        m_Move = value.Get<Vector2>();
-        if (m_Move.x == -1) {
-            //Move left
-        }
-        if (m_Move.x == 1) {
-            //Move right 
-        }
-        if (m_Move.y == -1) {
-            //Move down 
-        }
-        if (m_Move.y == 1) {
-            //Move up 
-        }
-
-
+        move = value.Get<Vector2>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        transform.position += new Vector3(move.x, move.y, 0) * speed * Time.deltaTime;
     }
 }
