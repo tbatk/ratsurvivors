@@ -442,6 +442,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c6f02d522e5445290cb8a47aafcba3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 921873096}
+  spriteRenderer: {fileID: 921873092}
+  northSprites:
+  - {fileID: -217469567, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  - {fileID: 1215291839, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  - {fileID: 1215291839, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  southSprites:
+  - {fileID: 5503906627829972480, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  - {fileID: 649939084, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  - {fileID: -353470338, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  horizontalSprites:
+  - {fileID: -1965207437, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  - {fileID: 316171412, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  - {fileID: -801974841, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  dashNorthSprites:
+  - {fileID: -489663563, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  dashSouthSprites:
+  - {fileID: -114666032, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
+  dashHorizontalSprites:
+  - {fileID: -410638057, guid: 1424bc5225e0a834582d47ef393eccd5, type: 3}
 --- !u!114 &921873095
 MonoBehaviour:
   m_ObjectHideFlags: 0
